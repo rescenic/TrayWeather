@@ -43,7 +43,8 @@ Tray icon showing the current weather icon. At night and on clear sky days it sh
 ![icon](https://cloud.githubusercontent.com/assets/12167134/20938095/f03e2474-bbe9-11e6-83b9-e2bc8c716bf4.jpg)
 ![icon_menu](https://cloud.githubusercontent.com/assets/12167134/20938103/f0b22126-bbe9-11e6-8639-30161344d1d3.jpg)
 
-Tray icon can also show the temperature alone or composed with the weather icon.
+Tray icon can also show the temperature alone or composed with the weather icon. The temperature text color can be set by the user
+or can change dynamically between a range of colors according to the current value. 
 
 ![icon_temp](https://user-images.githubusercontent.com/12167134/85929400-b6e05280-b8b4-11ea-9574-bf27537f38e3.png)
 
@@ -52,11 +53,11 @@ can be enabled here. Also a 'roaming' mode can be enabled, where the geographica
 weather information is up to date even if the computer location is moving. Roaming mode can only be enabled if the geolocation services are being used.
 The tray and application theme configuration can be found here in the miscellaneous options.  
 
-![config](https://user-images.githubusercontent.com/12167134/85958225-398c0f00-b994-11ea-816d-897caf9fbdf6.png)
+![config](https://user-images.githubusercontent.com/12167134/86063322-e933b080-ba6a-11ea-9d31-4f6c784a9d18.png)
 
 Configuration dialog, with the application dark theme.
 
-![config_dark](https://user-images.githubusercontent.com/12167134/85929399-b647bc00-b8b4-11ea-893d-301c626ed2e4.png) 
+![config_dark](https://user-images.githubusercontent.com/12167134/86063324-ea64dd80-ba6a-11ea-9052-51b187717f20.png) 
 
 Weather dialog, showing the current weather tab. 
 
@@ -77,7 +78,7 @@ the rest of the application so the user can be disable them using the button bel
 
 # Repository information
 
-**Version**: 1.4.1
+**Version**: 1.4.2
 
 **Status**: finished.
 
@@ -85,8 +86,8 @@ the rest of the application so the user can be disable them using the button bel
 
 | Language                     |files          |blank        |comment           |code  |
 |:-----------------------------|--------------:|------------:|-----------------:|-----:|
-| C++                          |   7           | 368         |   197            | 1633 |
-| C/C++ Header                 |   7           | 127         |   359            |  508 |
+| C++                          |   7           | 387         |   199            | 1741 |
+| C/C++ Header                 |   7           | 129         |   366            |  520 |
 | HTML                         |   1           |  28         |     0            |  138 |
 | CMake                        |   1           |  15         |    10            |   94 |
-| **Total**                    | **16**        | **538**     | **566**          | **2373** |
+| **Total**                    | **16**        | **559**     | **575**          | **2493** |
